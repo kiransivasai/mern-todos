@@ -1,0 +1,72 @@
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid #333333;
+  padding: 20px;
+}
+.actionBtn {
+  background-color: white !important;
+  color: green !important;
+  border: 2px solid green !important;
+  text-transform: none !important;
+  padding: 5px 10px !important;
+  margin-right: 5px !important;
+}
+.delete__button {
+  color: rgb(255, 97, 97) !important;
+  border: 2px solid rgb(255, 112, 112) !important;
+}
+.task h3 {
+  color: #ff9900;
+}
+.task p {
+  color: white;
+}
+.modal_content {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal_body {
+  background-color: white !important;
+  border-radius: 5px !important;
+}
+.modal_body h2 {
+  padding: 10px !important;
+  border-bottom: 1px solid #333333;
+}
+.update_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.update_form input {
+  font-size: 15px;
+  padding: 8px 10px !important;
+  border: 1px solid #333333;
+  border-radius: 5px !important;
+  outline: none !important;
+  margin: 20px;
+  width: 250px !important;
+}
+.form_actions {
+  margin: 20px;
+}
+.update__button {
+  background-color: #45a245 !important;
+  color: white !important;
+  text-transform: none !important;
+  padding: 5px 10px !important;
+  width: 100px !important;
+  border: none !important;
+}
+.close__button {
+  background-color: white !important;
+  color: black !important;
+  text-transform: none !important;
+  padding: 3px 10px !important;
+  width: 100px !important;
+  border: 1px solid #333333 !important;
+}
